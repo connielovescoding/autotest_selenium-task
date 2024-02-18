@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+auto-test_config:
+  #Driver name and path
+  browserName: chrome
+  browserDriver: /opt/homebrew/bin/chromedriver
+
+  #Report path
+  reportPath: /Users/con/Desktop/work/bochk_dev/test_20240216/demo-booking/csvreport/
+  
+  #Base web URL
+  webUrl: https://booking.com
+

@@ -7,7 +7,7 @@ auto-test_config:
   browserDriver: /opt/homebrew/bin/chromedriver
 
   #Report path
-  reportPath: /Users/con/Desktop/work/bochk_dev/test_20240216/demo-booking/csvreport/
+  reportPath: /Users/con/Desktop/github/autotest_selenium-task/csvreport/
   
   #Base web URL
   webUrl: https://booking.com

@@ -1,0 +1,5 @@
+TestId,DependencyId,TestTime,Description,Parameter,Detail,ExpectedResult,Result,Evidence
+"TEST10000",,"2024-02-18T17:26:24.299722","go to base url","https://booking.com","1.xxx, 2.xxx","in booking.com","PASSED","/Users/con/Desktop/github/autotest_selenium-task/demo-bookingcom/screenshot/20240218TEST10000.png"
+"TEST10001","TEST10000 >> TEST10001","2024-02-18T17:26:24.406146","check title",,"1.xxx, 2.xxx, 3.xxx","title=Booking.com | Official site | The best hotels, flights, car rentals & accommodations","PASSED","/Users/con/Desktop/github/autotest_selenium-task/demo-bookingcom/screenshot/20240218TEST10001.png"
+"TEST19000",,"2024-02-18T17:26:24.472653","go to base url","https://wrongurl.com","1.xxx, 2.xxx","in booking.com","FAILED","/Users/con/Desktop/github/autotest_selenium-task/demo-bookingcom/screenshot/20240218TEST19000.png"
+"TEST19001","TEST19000 >> TEST19001","2024-02-18T17:26:24.614720","check title",,"1.xxx, 2.xxx, 3.xxx","title=Booking.com | Official site | The best hotels, flights, car rentals & accommodations","FAILED","/Users/con/Desktop/github/autotest_selenium-task/demo-bookingcom/screenshot/20240218TEST19001.png"
